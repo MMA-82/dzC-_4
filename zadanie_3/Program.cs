@@ -1,4 +1,6 @@
-﻿int[] array = new int[20];
+﻿Console.WriteLine("Задайте длину массива: ");
+int length = int.Parse(Console.ReadLine() ?? "0");
+int[] array = new int[length];
 Console.Write("Массив трехзначных чисел: ");
 for(int i = 0; i < array.Length; i++)
 {
